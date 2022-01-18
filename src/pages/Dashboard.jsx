@@ -75,8 +75,8 @@ const Dashboard = () => {
     }
 
     const onDeposit = (data) => {
-      let amount = BNtoNum(Number(data.amount))
-      alert("Deposited amount: " + amount);
+      // let amount = BNtoNum(Number(data.amount))
+      alert("Deposited amount: " + data.amount);
       console.log(data);
     }
 
